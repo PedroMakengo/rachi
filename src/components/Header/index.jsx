@@ -1,20 +1,22 @@
 import React from 'react';
 
+import { HeaderContent, Nav } from './style.js';
+
 import LogoImg from "../../assets/Logo.svg";
 
 const Header = () => {
   return (
-    <header>
+    <HeaderContent>
       <div className="container">
         <img src={LogoImg} alt="" />
-        <nav className="nav">
+        <Nav className="nav">
           <a href="/">Funcionalidades</a>
           <a href="/">App</a>
           <a href="/">Planos</a>
           <a href="/">Contacto</a>
-        </nav>
+        </Nav>
       </div>
-    </header>
+    </HeaderContent>
   )
 };
 
