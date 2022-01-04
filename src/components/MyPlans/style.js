@@ -33,7 +33,7 @@ export const Row = styled.div `
 
   .item {
     width: 32%;
-    height: 60vh;
+    height: 70vh;
     background: #EFF8FF;
 
     display: flex;
@@ -43,6 +43,17 @@ export const Row = styled.div `
 
 
     border-radius: 0.25rem;
+
+    &:nth-child(2) {
+      background: #293145;
+      color: #fff;
+
+      .preferido {
+        width: 150px;
+        height: 40px;
+        margin-bottom: 2rem;
+      }
+    }
 
     h2 {
       font-weight: bold;
@@ -69,7 +80,16 @@ export const Row = styled.div `
     button {
       width: 220px;
       height: 40px;
+
       background: #0F9AFE;
+      box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+      border-radius: 50px;
+      border: 0;
+
+      font-family: Poppins;
+      font-size: 1rem;
+
+      color: #fff;
     }
   }
 `;

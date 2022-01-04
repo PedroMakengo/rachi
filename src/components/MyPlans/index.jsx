@@ -13,7 +13,7 @@ const MyPlans = () => {
         <Row>
           <div className="item">
             <h2>Bronze</h2>
-            <h3><sup>R$</sup> 28 <sub>/mes</sub></h3>
+            <h3><sup>R$</sup> 28 <sub>/mês</sub></h3>
 
             <p>Lorem ipsum dolor sit amet, 
               consectetur adipiscing elit. 
@@ -23,8 +23,9 @@ const MyPlans = () => {
             <button>Assinar</button>
           </div>
           <div className="item">
-            <h2>Bronze</h2>
-            <h3><sup>R$</sup> 28 <sub>/mes</sub></h3>
+            <h2>Prata</h2>
+            <button className='preferido'>Preferido</button>
+            <h3><sup>R$</sup> 57 <sub>/mês</sub></h3>
 
             <p>Lorem ipsum dolor sit amet, 
               consectetur adipiscing elit. 
@@ -34,8 +35,8 @@ const MyPlans = () => {
             <button>Assinar</button>
           </div>
           <div className="item">
-            <h2>Bronze</h2>
-            <h3><sup>R$</sup> 28 <sub>/mes</sub></h3>
+            <h2>Ouro</h2>
+            <h3><sup>R$</sup> 94 <sub>/mês</sub></h3>
 
             <p>Lorem ipsum dolor sit amet, 
               consectetur adipiscing elit. 
