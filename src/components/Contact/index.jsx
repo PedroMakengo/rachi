@@ -12,7 +12,10 @@ const Contact = () => {
            ultrices.
         </p>
 
-        <Form></Form>
+        <Form>
+           <input type="text" placeholder="Seu melhor email" />
+           <button>Enviar</button>
+        </Form>
       </Container>
     </SectionContacts>
   )
