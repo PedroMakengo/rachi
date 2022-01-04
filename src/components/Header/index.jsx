@@ -15,6 +15,9 @@ const Header = () => {
           <a href="/">Planos</a>
           <a href="/">Contacto</a>
         </Nav>
+        <button>
+          Menu
+        </button>
       </div>
     </HeaderContent>
   )
