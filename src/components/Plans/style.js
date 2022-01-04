@@ -5,8 +5,6 @@ import PlansImg from '../../assets/Bg-planos.png';
 export const PlansContainer = styled.section`
   height: 475px;
   background: url(${PlansImg});
-  margin-bottom: 4rem;
-
   .container {
     display: flex;
     align-items: center;
@@ -16,8 +14,6 @@ export const PlansContainer = styled.section`
 
 
 export const BaixaApp = styled.div `
-
-
   h1 {
     font-size: 2rem;
     font-weight: bold;

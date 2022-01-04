@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { BannerBackground } from './components/Banner';
 import { About } from './components/AboutInfo';
 import { PlansApp } from './components/Plans';
+import { MyPlans } from './components/MyPlans';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <BannerBackground />
       <About />
       <PlansApp />
+      <MyPlans />
     </div>
   );
 }
