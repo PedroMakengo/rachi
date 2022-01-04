@@ -4,7 +4,6 @@ import BannerImg from '../../assets/bg-background.svg'
 export const Banner = styled.section `
   width: 100%;
 
-
   height: 90vh;
   background-image: url(${BannerImg});
   background-position: center;
@@ -20,9 +19,18 @@ export const Banner = styled.section `
   }
 
   @media (max-width: 480px) {
+    height: 60vh;
 
     .container {
-      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      padding-top: 2rem;
+
+      img {
+        display: none;
+      }
     }
   }
 `;
@@ -53,5 +61,18 @@ export const TextBanner = styled.div`
     font-size: 0.9rem;
 
     color: #fff;
+  }
+
+  @media (max-width: 480px) {
+    width: 100%;
+
+    h1 {
+      font-size: 1.3rem;
+    }
+
+    button {
+      width: 150px;
+      height: 35px;
+    }
   }
 `;
