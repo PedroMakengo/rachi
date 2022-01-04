@@ -49,6 +49,13 @@ export const BaixaApp = styled.div `
     font-family: Poppins;
     font-weight: bold;
     color: #fff;
+
+    transition: background 0.3s;
+
+    &:hover {
+      background: #293133;
+      cursor: pointer;
+    }
   }
 
 `;

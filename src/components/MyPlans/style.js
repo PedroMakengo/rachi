@@ -94,6 +94,13 @@ export const Row = styled.div `
       font-size: 1rem;
 
       color: #fff;
+
+      transition: background 0.5s;
+
+      &:hover {
+        background: #0FB2FA;
+        cursor: pointer;
+      }
     }
   }
 `;

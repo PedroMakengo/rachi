@@ -61,6 +61,12 @@ export const TextBanner = styled.div`
     font-size: 0.9rem;
 
     color: #fff;
+    transition: background 0.5s;
+
+    &:hover {
+      background: #0FB2FA;
+      cursor: pointer;
+    }
   }
 
   @media (max-width: 480px) {
