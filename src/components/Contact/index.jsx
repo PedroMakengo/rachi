@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SectionContacts, Container, Row } from './style.js';
+import { SectionContacts, Container, Form } from './style.js';
 
 const Contact = () => {
   return (
@@ -12,7 +12,7 @@ const Contact = () => {
            ultrices.
         </p>
 
-        <Row></Row>
+        <Form></Form>
       </Container>
     </SectionContacts>
   )

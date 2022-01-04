@@ -13,9 +13,12 @@ export const SectionContacts = styled.section `
 export const Container = styled.div`
   text-align: center;
   padding: 2rem 0;
+  color: #fff;
 
   h1 {
-    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    font-weight: bold;
   }
   
   p {
