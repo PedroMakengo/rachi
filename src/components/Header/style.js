@@ -19,10 +19,21 @@ export const HeaderContent = styled.header`
   }
 
   @media (max-width: 480px) {
-    height: 10vh;
+    height: 15vh;
 
     .container {
-     display: none;
+     /* display: none; */
+     button {
+       display: block;
+       width: 60px;
+       height: 40px;
+
+       background: #0F9AFE;
+       border: 0;
+       border-radius: 50px;
+
+       color: #fff;
+     }
     }
   }
 `;
