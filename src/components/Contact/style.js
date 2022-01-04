@@ -26,6 +26,10 @@ export const Container = styled.div`
     width: 500px;
     margin: 0 auto;
   }
+
+  @media (max-width: 480px) {
+    display: none;
+  }
 `;
 
 export const Form = styled.form `

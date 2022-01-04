@@ -25,5 +25,6 @@ footer {
 @media (max-width: 480px) {
   .container {
     width: 85%;
+    /* display: none; */
   }
 }

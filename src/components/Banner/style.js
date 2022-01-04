@@ -2,9 +2,12 @@ import styled from "styled-components";
 import BannerImg from '../../assets/bg-background.svg'
 
 export const Banner = styled.section `
+  width: 100%;
+
+
+  height: 90vh;
   background-image: url(${BannerImg});
   background-position: center;
-  height: 90vh;
 
   align-items: center;
 
@@ -14,8 +17,13 @@ export const Banner = styled.section `
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
 
+  @media (max-width: 480px) {
 
+    .container {
+      display: none;
+    }
   }
 `;
 

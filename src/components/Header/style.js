@@ -19,24 +19,10 @@ export const HeaderContent = styled.header`
   }
 
   @media (max-width: 480px) {
-    height: 20vh;
+    height: 10vh;
 
     .container {
-      button {
-        display: block;
-        padding: 1rem;
-
-        background: #0F9AFE;
-        border-radius: 0.25rem;
-
-        border: 0;
-        color: #fff;
-      }
-    }
-    
-    /* Outra Parte */
-    nav {
-      display: none;
+     display: none;
     }
   }
 `;
@@ -49,5 +35,9 @@ export const Nav = styled.nav`
     margin-right: 2rem;
     color: #6E7275;
     text-decoration: none;
+  }
+
+  @media (max-width: 480px) {
+    display: none;
   }
 `;

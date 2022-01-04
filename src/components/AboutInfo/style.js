@@ -52,4 +52,9 @@ export const RowContent = styled.div`
     }
   }
 
+
+  @media (max-width: 480px) {
+    display: none;
+  }
+
 `;

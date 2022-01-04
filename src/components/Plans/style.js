@@ -5,10 +5,15 @@ import PlansImg from '../../assets/Bg-planos.png';
 export const PlansContainer = styled.section`
   height: 475px;
   background: url(${PlansImg});
+
   .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  @media (max-width: 480px) {
+    display: none;
   }
 `;
 
