@@ -3,7 +3,9 @@ import BannerImg from '../../assets/bg-background.svg'
 
 export const Banner = styled.section `
   background-image: url(${BannerImg});
-  height: 75vh;
+  background-position: center;
+  height: 90vh;
+
   align-items: center;
 
   .container {

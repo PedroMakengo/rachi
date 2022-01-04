@@ -12,10 +12,15 @@ const App = () => {
     <div className="App">
       <Header />
       <BannerBackground />
-      <About />
-      <PlansApp />
-      <MyPlans />
-      <Contact />
+      <main>
+        <About />
+        <PlansApp />
+        <MyPlans />
+        <Contact />
+      </main>
+      <footer>
+        <p>Rachi - Todos os direitos reservados.</p>
+      </footer>
     </div>
   );
 }

@@ -2,8 +2,11 @@ import styled from 'styled-components';
 
 
 export const HeaderContent = styled.header`
-  background: #fff;
+  width: 100%;
   height: 13vh;
+
+  position: fixed;
+  background: #fff;
 
   .container {
     display: flex;
