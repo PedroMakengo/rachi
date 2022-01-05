@@ -18,6 +18,7 @@ const App = () => {
         <MyPlans />
         <Contact />
       </main>
+
       <footer>
         <p>Rachi - Todos os direitos reservados.</p>
       </footer>

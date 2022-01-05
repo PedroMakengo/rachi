@@ -16,7 +16,7 @@ const BannerBackground = () => {
           </h1>
           <button>Cadastrar-se</button>
         </TextBanner>
-        <img src={WorkingImg} alt="" />
+          <img src={WorkingImg} alt="" />
       </div>
     </Banner>
   )

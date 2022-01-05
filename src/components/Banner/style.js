@@ -18,6 +18,8 @@ export const Banner = styled.section `
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    padding-top: 3rem;
   }
 
   @media (max-width: 480px) {

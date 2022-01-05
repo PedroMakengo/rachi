@@ -8,6 +8,8 @@ export const HeaderContent = styled.header`
   position: fixed;
   background: #fff;
 
+  z-index: 500;
+
   .container {
     display: flex;
     align-items: center;
