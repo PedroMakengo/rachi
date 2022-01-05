@@ -1,5 +1,7 @@
 import styled from "styled-components";
-import BannerImg from '../../assets/bg-background.svg'
+import BannerImg from '../../assets/bg-background.svg';
+
+import { darken } from 'polished';
 
 export const Banner = styled.section `
   width: 100%;
@@ -64,7 +66,7 @@ export const TextBanner = styled.div`
     transition: background 0.5s;
 
     &:hover {
-      background: #0FB2FA;
+      background: ${darken(0.1, '#0F9AFE')};
       cursor: pointer;
     }
   }

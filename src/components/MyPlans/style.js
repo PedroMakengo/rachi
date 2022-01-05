@@ -1,3 +1,4 @@
+import { darken } from "polished";
 import styled from "styled-components";
 
 export const MyPlansContent = styled.section `
@@ -98,7 +99,7 @@ export const Row = styled.div `
       transition: background 0.5s;
 
       &:hover {
-        background: #0FB2FA;
+        background: ${darken(0.1, '#0F9AFE')};
         cursor: pointer;
       }
     }

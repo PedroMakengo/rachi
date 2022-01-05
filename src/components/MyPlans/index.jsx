@@ -2,6 +2,9 @@ import React from 'react';
 
 import { MyPlansContent, Container, Row } from './style.js';
 
+
+import { CardPlan } from './CardPlan/index.jsx';
+
 const MyPlans = () => {
   return (
     <MyPlansContent>
@@ -11,40 +14,9 @@ const MyPlans = () => {
           Donec lacinia mi quis euismod ultrices.</p>
 
         <Row>
-          <div className="item">
-            <h2>Bronze</h2>
-            <h3><sup>R$</sup> 28 <sub>/mês</sub></h3>
-
-            <p>Lorem ipsum dolor sit amet, 
-              consectetur adipiscing elit. 
-              Donec lacinia mi quis euismod ultrices
-            </p>
-
-            <button>Assinar</button>
-          </div>
-          <div className="item">
-            <h2>Prata</h2>
-            <button className='preferido'>Preferido</button>
-            <h3><sup>R$</sup> 57 <sub>/mês</sub></h3>
-
-            <p>Lorem ipsum dolor sit amet, 
-              consectetur adipiscing elit. 
-              Donec lacinia mi quis euismod ultrices
-            </p>
-
-            <button>Assinar</button>
-          </div>
-          <div className="item">
-            <h2>Ouro</h2>
-            <h3><sup>R$</sup> 94 <sub>/mês</sub></h3>
-
-            <p>Lorem ipsum dolor sit amet, 
-              consectetur adipiscing elit. 
-              Donec lacinia mi quis euismod ultrices
-            </p>
-
-            <button>Assinar</button>
-          </div>
+          <CardPlan tipoPlano='Bronze' valor='28' />
+          <CardPlan tipoPlano='Prata' valor='57' />
+          <CardPlan tipoPlano='Ouro' valor='94' />
         </Row>
       </Container>
     </MyPlansContent>

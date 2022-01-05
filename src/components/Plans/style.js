@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import PlansImg from '../../assets/Bg-planos.png';
+import { darken } from "polished";
 
 
 export const PlansContainer = styled.section`
@@ -52,8 +53,20 @@ export const BaixaApp = styled.div `
 
     transition: background 0.3s;
 
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 1.2rem;
+
+      svg {
+        margin-right: 1rem;
+      }
+    }
+
     &:hover {
-      background: #293133;
+      background: ${darken(0.1, '#0F9AFE')};
       cursor: pointer;
     }
   }
